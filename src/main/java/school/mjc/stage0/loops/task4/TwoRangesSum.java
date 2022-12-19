@@ -12,7 +12,8 @@ public class TwoRangesSum {
             for(int i=(numberToSkip+1);i<=lastInRow;i++){
 result2+=i;
             }
-
+            System.out.println("skipped sum is "+result);
+            System.out.println("counted sum is "+result2);
 
         }
         else {
@@ -23,8 +24,6 @@ result2+=i;
                 System.out.println("number to skip is bugger then the last");
             }
         }
-        System.out.println("skipped sum is "+result);
-        System.out.println("counted sum is "+result2);
     
     }
 }
